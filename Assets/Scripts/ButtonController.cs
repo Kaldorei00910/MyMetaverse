@@ -9,8 +9,13 @@ using UnityEngine.UI;
 public class ButtonController : UiManager
 {
     public TMP_Text text;
+
     public void OnOKButton()
     { 
         ChangeNameWithScene(text.text);
+    }
+    public void OnChangeCharBtn()
+    {
+        ChangeChar(name);
     }
 }

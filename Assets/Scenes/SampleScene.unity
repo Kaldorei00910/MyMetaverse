@@ -10180,7 +10180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1457524701
 Animator:
   serializedVersion: 5
@@ -10451,6 +10451,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerName: {fileID: 831324033}
+  Player1: {fileID: 1647843215}
+  Player2: {fileID: 1457524700}
 --- !u!4 &1476124089
 Transform:
   m_ObjectHideFlags: 0
@@ -10536,7 +10538,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1647843216
 SpriteRenderer:
   m_ObjectHideFlags: 0
