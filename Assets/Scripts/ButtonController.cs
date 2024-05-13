@@ -12,6 +12,5 @@ public class ButtonController : UiManager
     public void OnOKButton()
     { 
         ChangeNameWithScene(text.text);
-
     }
 }
