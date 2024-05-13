@@ -9,11 +9,13 @@ public class MainMovement : MonoBehaviour
 
     private Vector2 movementDirection = Vector2.zero;
 
+    private Camera camera;
+
     private void Awake()
     {
         controller = GetComponent<MainController>();
         movementrigidBody = GetComponent<Rigidbody2D>();
-
+        camera = Camera.main;
     }
 
     // Start is called before the first frame update
